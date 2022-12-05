@@ -1,0 +1,118 @@
+[
+    {
+        "name": "Bear Cookies",
+        "description": "Dairy-free | Gluten-free",
+        "price": 4.99,
+        "image": "bearcookie.jpeg",
+        "category": "Cookies",
+        "calories": 120
+    },
+
+    {
+        "name": "Assorted Cakes",
+        "description": "Nut-free",
+        "price": 13.99,
+        "image": "assortedcake.png",
+        "category": "Cakes",
+        "calories": 250
+    },
+
+    {
+        "name": "Bear Cake",
+        "description": "Nut-free",
+        "price": 5.99,
+        "image": "bearcake.jpeg",
+        "category": "Cakes",
+        "calories": 300
+    },
+
+    {
+        "name": "Bear Macaron",
+        "description": "Gluten-free",
+        "price": 3.99,
+        "image": "bearmacaroon.jpeg",
+        "category": "Macarons",
+        "calories": 115
+    },
+
+    {
+        "name": "Cat Macaron",
+        "description": "Gluten-free | Nut-free",
+        "price": 3.99,
+        "image": "catmacaroon.jpeg",
+        "category": "Macarons",
+        "calories": 130
+    },
+
+    {
+        "name": "Dog Cookies",
+        "description": "Dairy-free | Gluten-free | Nut-free",
+        "price": 6.99,
+        "image": "dogcookie.jpeg",
+        "category": "Cookies",
+        "calories": 135
+    },
+
+    {
+        "name": "Dog Macarons",
+        "description": "Gluten-free",
+        "price": 5.99,
+        "image": "dogmacaroon.jpeg",
+        "category": "Macarons",
+        "calories": 170
+    },
+
+    {
+        "name": "Dolce Cookies",
+        "description": "",
+        "price": 6.49,
+        "image": "dolcecookie.jpeg",
+        "category": "Cookies",
+        "calories": 200
+    },
+
+    {
+        "name": "Fish Cakes",
+        "description": "Dairy-free",
+        "price": 7.49,
+        "image": "fishcake.jpeg",
+        "category": "Cakes",
+        "calories": 240
+    },
+
+    {
+        "name": "Macaron Sampler",
+        "description": "Gluten-free | Nut-free",
+        "price": 14.99,
+        "image": "generalmacaroon.jpeg",
+        "category": "Macarons",
+        "calories": 150
+    },
+
+    {
+        "name": "Heart Cookies",
+        "description": "",
+        "price": 5.49,
+        "image": "heartcookie.jpeg",
+        "category": "Cookies",
+        "calories": 110
+    },
+
+    {
+        "name": "Lion Macarons",
+        "description": "Gluten-free | Dairy-free",
+        "price": 5.99,
+        "image": "lionmacaroon.jpeg",
+        "category": "Macarons",
+        "calories": 130
+    },
+
+    {
+        "name": "Strawberry Cake",
+        "description": "Nut-free",
+        "price": 7.49,
+        "image": "strawberrycake.png",
+        "category": "Cakes",
+        "calories": 180
+    }
+]
