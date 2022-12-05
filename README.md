@@ -1,7 +1,7 @@
 # Development
 
 ### Link to Deployed Website
-If you used the stencil code, this is `https://<your GitHub username>.github.io/<name of your repository>`
+https://sleepysloth123.github.io/reactdevelopment/ 
 
 ### Goal and Value of the Application
 The goal of my application is a bakery online ordering site. It allows users
