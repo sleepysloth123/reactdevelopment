@@ -20,11 +20,11 @@ function App() {
 
   const sortItems = () =>{
     if (sortBy === "price"){
-      menuData.sort((a,b) => {
+      filteredData.sort((a,b) => {
         return a.price - b.price;
       })
     } else if (sortBy === "calories"){
-      menuData.sort((a,b) => {
+      filteredData.sort((a,b) => {
         return a.calories - b.calories;
       })
     }
