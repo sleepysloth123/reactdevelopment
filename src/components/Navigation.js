@@ -24,11 +24,11 @@ export default function Navigation(props) {
   }
 
   const handleFilterChecked = (event) =>{
-    if (event.target.checked == true){
+    if (event.target.checked === true){
       props.setFilters([...filterList, event.target.value]);
     } else {
       const updatedFilters = filterList.filter((filterName) => {
-        return filterName != event.target.value;
+        return filterName !== event.target.value;
       })
       props.setFilters(updatedFilters);
     }
@@ -46,13 +46,13 @@ export default function Navigation(props) {
           }}>
           <FormLabel id="sort">Sort By</FormLabel>
           <RadioGroup
-            onChange={handleSortChange}
+            
             >
               <FormControlLabel value="price" 
-                control={<Radio/>}
+                control={<Radio onChange={handleSortChange}/>}
                 label="Price"/>
               <FormControlLabel value="calories" 
-                control={<Radio/>}
+                control={<Radio onChange={handleSortChange}/>}
                 label="Calories"/>  
           </RadioGroup>
         </FormControl>
