@@ -1,5 +1,5 @@
 import './App.css';
-import React, { useEffect, useState } from "react";
+import React from "react";
 // contains bakery data and npasses each bakery item to the BakeryItem component
 
 import Navigation from './components/Navigation';
@@ -19,11 +19,11 @@ function App() {
 
 
   const sortItems = () =>{
-    if (sortBy == "price"){
+    if (sortBy === "price"){
       menuData.sort((a,b) => {
         return a.price - b.price;
       })
-    } else if (sortBy == "calories"){
+    } else if (sortBy === "calories"){
       menuData.sort((a,b) => {
         return a.calories - b.calories;
       })
@@ -45,7 +45,7 @@ function App() {
   }
 
   const matchesFilterType = (item) => {
-    if (filterList.length == 0){ // it contains only "All"
+    if (filterList.length === 0){ // it contains only "All"
       return true;
     } else { 
       for (var i = 0; i < filterList.length; i++){
@@ -57,9 +57,6 @@ function App() {
     }
   }
 
-  // const categorizedData = menuData.filter((item) => {
-  //   return item.category === categorizeBy || categorizeBy === "All";
-  // });
   const categorizedData = menuData.filter(categorizeItems);
   const filteredData = categorizedData.filter(matchesFilterType);
 
