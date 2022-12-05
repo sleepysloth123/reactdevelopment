@@ -1,0 +1,83 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    }
+
+/* get rid of default margins which
+vary depending on browser anyway, just
+set it yourself later*/
+* {
+    margin: 0;
+}
+
+    /* media elements are replaced elements
+which have a width based on the media,
+so we prevent it from expanding beyond
+its container, and take up a row */
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+/* make tables look like spreadsheets
+and less like a spaced-out grid */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+#category{
+    font-size: 15px;
+    font-style: italic;
+    color: rgb(160, 160, 160);
+}
+
+#info{
+    font-size: 18px;
+    color: #4b311a;
+}
+
+.card-container{
+    margin: 0;
+    padding: 10px;
+    width: 95%;
+    height: 500px;
+    border-radius: 10px;
+    border: 3px solid #ded7d0;
+    
+    
+    /* background-color: #ded7d0; */
+    
+    
+    display: grid;
+    grid-template-rows: 2fr, 1fr, 1fr;
+    grid-template-columns: 1;
+}
+
+.image{
+    grid-row: 1;
+    grid-column: 1;
+    border-radius: 10px;
+
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.content{
+    grid-row: 2;
+    grid-column: 1;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.buttons{
+    grid-row: 3;
+    grid-column: 1;
+
+    padding-top: 20px;
+    padding-bottom: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
